@@ -1,0 +1,149 @@
+/*Basic styles*/
+		body {
+			background-color: #eee;
+		}
+
+		h1 {
+			font-weight: bold;
+			margin: 10px 0;
+		}
+
+		span {
+			font-size: 14px;
+		}
+
+		a {
+			color: #333;
+			font-size: 14px;
+			margin: 15px 0;
+			text-decoration: none;
+		}
+
+		form {
+			background-color: #ffffff;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+
+		input {
+			background-color: #eee;
+			border: none;
+			padding: 12px 15px;
+			margin: 5px 0 20px;
+
+		}
+
+		/* social-media-container */
+		.social-media-icons {
+			margin: 8px 0;
+		}
+
+		.social-media-icons a {
+			border: 1px solid #dddddd;
+			border-radius: 50%;
+			display: inline-flex;
+			justify-content: center;
+			align-items: center;
+			margin: 0 5px;
+			width: 50px;
+			height: 50px;
+		}
+
+		.social-f:hover {
+			background-color: #3b5998;
+			border: 1px solid #ffffff;
+			color: #ffffff;
+		}
+
+		.social-g:hover {
+			background-color: #bd081c;
+			border: 1px solid #ffffff;
+			color: #ffffff;
+		}
+
+		.social-l:hover {
+			background-color: #0077b5;
+			border: 1px solid #ffffff;
+			color: #ffffff;
+
+		}
+
+		/* Main-container-styles*/
+
+		.container {
+
+			background-color: #ffffff;
+			width: 768px;
+			border-radius: 10px;
+			box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+			overflow: hidden;
+			max-width: 100%;
+			min-height: 480px;
+			margin: 30px auto;
+		}
+
+		.input-container {
+			width: 50%;
+			display: flex;
+			flex-direction: column;
+			margin: 10px 0
+		}
+
+		button {
+			border: 1px solid #0D47A1;
+			background-color: #0D47A1;
+			border-radius: 20px;
+			padding: 12px 45px;
+			letter-spacing: 1px;
+			font-size: 14px;
+			font-weight: bold;
+			color: #fff;
+			transition: transform 120ms ease-in;
+			margin: 20px 0;
+		}
+
+		button:active {
+			transform: scale(0.95);
+		}
+
+		button:focus {
+			outline: none;
+		}
+
+		label {
+			color: #333;
+			margin: 5px 0;
+		}
+
+		select {
+			background-color: #ddd;
+			padding: 12px 15px;
+			border: none;
+		}
+
+		option {
+			background-color: #ddd;
+			padding: 12px 15px;
+			border: none;
+			font-size: 14px;
+		}
+
+		.radio-btn-container {
+			display: flex;
+			margin: 20px 0px;
+		}
+
+		.radio {
+			margin: 5px 10px;
+		}
+
+		.Suggestion {
+			background-color: #fff;
+			padding: 12px 15px;
+			font-size: 14px;
+			margin: 10px 0px;
+			padding: 0px 5px 20px 5px;
+			border: 1px solid #ddd;
+		}
